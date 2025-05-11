@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Cyberlab",
+  title: "Degen CyberLab",
   description: "Your trusted partner in cybersecurity solutions.",
 };
 
