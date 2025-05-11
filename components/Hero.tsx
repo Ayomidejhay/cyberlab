@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 import MotionSection from "./MotionSection";
 const Hero = () => {
   return (
-    <MotionSection className="text-[#C5D8C3] h-screen flex items-center  px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <MotionSection className="text-[#C5D8C3] h-[100vh] md:h-[60vh] xl:h-screen flex items-center  px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <section className="flex flex-col items-center justify-center mx-auto relative">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -16,8 +16,8 @@ const Hero = () => {
           className="flex flex-col  text-[#C5D8C3] items-center justify-center mx-auto max-w-[600px] "
         >
           <span className="h-4 w-0.5 bg-[#C5D8C3] mb-1"></span>
-          <p className="uppercase text-[14px] text-[#C5D8C3]">
-            dexteer cyberlab
+          <p className="uppercase text-[16px] md:text-[24px] text-[#C5D8C3]">
+            degen cyberlab
           </p>
 
           <TypeAnimation
@@ -43,9 +43,9 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="text-[12px] max-w-[500px] text-center text-[#C5D8C3]"
+            className="text-[15px] md:text-[20px] max-w-[500px] text-center text-[#C5D8C3]"
           >
-            Welcome to Dexter Cyberlabs, we specialize in crafting bespoke
+            Welcome to Degen CyberLabs, we specialize in crafting bespoke
             technology solutions designed to meet your unique needs. Our
             commitment to excellence, combined with innovative thinking, sets us
             apart as leaders in the industry.

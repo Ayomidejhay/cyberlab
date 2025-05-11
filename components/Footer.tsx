@@ -15,7 +15,7 @@ const Footer = () => {
               <ul className="mt-8 space-y-4">
                 <li>
                   <a
-                    href="#"
+                    href="/aboutUs/about"
                     title=""
                     className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
@@ -25,32 +25,32 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/aboutUs/team"
                     title=""
                     className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     {" "}
-                    Features{" "}
+                    Team{" "}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/projects"
                     title=""
                     className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     {" "}
-                    Works{" "}
+                    Projects{" "}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/blog"
                     title=""
                     className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     {" "}
-                    Career{" "}
+                    Blog{" "}
                   </a>
                 </li>
               </ul>

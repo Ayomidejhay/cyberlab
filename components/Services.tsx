@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Service } from './ServiceOffered';
 import Link from 'next/link';
 
 
 
 const AnimatedCard = ({title, content, link, avatar}:Service) => {
+
+ const [flipped, setFlipped] = useState(false);
+
   return (
     <div className='flex justify-center'>
-        <div className="group [perspective:1000px] w-full  sm:w-[80%] md:w-[60%] h-[350px]">
+        <div className="group [perspective:1000px] w-full  sm:w-[80%] md:w-full h-[400px] xl:w-[60%]" onClick={() => setFlipped(!flipped)}>
             <div
-                className="relative w-full h-full transition-transform duration-[600ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                className={`relative w-full h-full transition-transform duration-[600ms] [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]`}
+                style={{ transform: flipped ? 'rotateY(180deg)' : '' }}>
                 {/* Front Side */}
-                <div className="absolute w-full h-full backface-hidden [backface-visibility:hidden]">
+                <div className="absolute w-full h-full backface-hidden ">
                     <img
                         src={avatar}
                         alt="animated_card"

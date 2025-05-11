@@ -64,11 +64,11 @@ export default function page() {
               >
                 <div className=" px-5 py-8 flex flex-col justify-center gap-5">
                   <h3 className="uppercase text-[14px] text-[#C5D8C3] mb-4">
-                    about dexteer
+                    about degen
                   </h3>
                   <p className="text-4xl text-white">Who We Are</p>
                   <p>
-                    At DextEer Software Company, we are a forward-thinking team
+                    At Degen CyberLabs Software Company, we are a forward-thinking team
                     of software engineers, designers, and technology strategists
                     committed to building innovative digital solutions that
                     drive real-world impact. Founded on a passion for excellence
@@ -115,7 +115,7 @@ export default function page() {
                       </h3>
                       <p className="text-4xl text-white">Who We Are</p>
                       <p>
-                        At DextEer Software Company, we are a forward-thinking
+                        At Degen CyberLabs Software Company, we are a forward-thinking
                         team of software engineers, designers, and technology
                         strategists committed to building innovative digital
                         solutions that drive real-world impact. Founded on a
@@ -186,13 +186,13 @@ export default function page() {
                   </p>
                   <p>
                     Founded in 2015 by a group of passionate developers and tech
-                    enthusiasts, DextEer Software Company began as a small
+                    enthusiasts, Degen CyberLabs Software Company began as a small
                     startup with a bold vision: to simplify technology and make
                     powerful software accessible to everyone. What started as a
                     two-person operation has grown into a dynamic team serving
                     clients across sectors including finance, health, education,
                     and e-commerce <br /> <br />
-                    Over the years, DextEer has evolved from delivering basic
+                    Over the years, Degen CyberLabs has evolved from delivering basic
                     web and mobile applications to building complex enterprise
                     systems, AI-driven platforms, and cloud-native solutions.
                     Our journey is defined by adaptability, continuous learning,
@@ -218,13 +218,13 @@ export default function page() {
                   </p>
                   <p>
                     Founded in 2015 by a group of passionate developers and tech
-                    enthusiasts, DextEer Software Company began as a small
+                    enthusiasts, Degen CyberLabs Software Company began as a small
                     startup with a bold vision: to simplify technology and make
                     powerful software accessible to everyone. What started as a
                     two-person operation has grown into a dynamic team serving
                     clients across sectors including finance, health, education,
                     and e-commerce <br /> <br />
-                    Over the years, DextEer has evolved from delivering basic
+                    Over the years, Degen CyberLabs has evolved from delivering basic
                     web and mobile applications to building complex enterprise
                     systems, AI-driven platforms, and cloud-native solutions.
                     Our journey is defined by adaptability, continuous learning,

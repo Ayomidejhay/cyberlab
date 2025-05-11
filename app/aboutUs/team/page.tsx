@@ -73,7 +73,7 @@ export default function page() {
               </p>
               <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                 Hey 👋 I am <br className="block sm:hidden" />
-                Jenny Carter
+                Jerry Carter
               </h2>
               <p className="max-w-lg mt-3 text-lg leading-relaxed text-gray-600 md:mt-8">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do

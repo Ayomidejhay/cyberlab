@@ -19,7 +19,7 @@ const Approach = () => {
               Strategic Innovation, Secure by Design
             </p>
             <p className="text-[12px] my-3">
-              At Dexteer CyberLab, we believe that security and innovation go
+              At Degen CyberLabs, we believe that security and innovation go
               hand in hand. Our methodology is built on a structured yet
               adaptable framework that ensures we deliver secure, high-quality,
               and scalable solutions for our clients.

@@ -66,7 +66,7 @@ export default function page() {
                           <path d="M2 8l10 7 10-7" />
                         </svg>
                       </span>
-                      <p>funnytechie@gmail.com</p>
+                      <p>degencyberlabs@gmail.com</p>
                     </div>
                     <div className="flex gap-5 mt-3 pl-5">
                       <svg

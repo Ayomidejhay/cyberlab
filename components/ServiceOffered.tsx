@@ -64,7 +64,7 @@ const ServiceOffered = () => {
               Our services
             </h3>
             <p className=" text-white">
-              At Dexteer CyberLab, we provide cutting-edge cybersecurity and
+              At Degen CyberLabs, we provide cutting-edge cybersecurity and
               software development solutions to help businesses stay secure and
               innovative in the digital world.
             </p>

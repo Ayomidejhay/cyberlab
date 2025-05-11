@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import MotionSection from "./MotionSection";
+import Link from "next/link";
 
 const Blog = () => {
   return (
@@ -21,8 +22,13 @@ const Blog = () => {
         </div>
 
         <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
-          <div>
-            <a href="#" title="" className="block aspect-w-4 aspect-h-3">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            viewport={{ once: true }}
+          >
+            <Link href="#" title="" className="block aspect-w-4 aspect-h-3">
               <motion.img
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
@@ -30,7 +36,7 @@ const Blog = () => {
                 src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800&h=500"
                 alt=""
               />
-            </a>
+            </Link>
             <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9">
               {" "}
               Technology{" "}
@@ -50,10 +56,13 @@ const Blog = () => {
               {" "}
               Martin Jones . June 12, 2021{" "}
             </span>
-          </div>
+          </motion.div>
 
-          <div>
-            <a href="#" title="" className="block aspect-w-4 aspect-h-3">
+          <motion.div initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6 }}
+              viewport={{ once: true }}>
+            <Link href="#" title="" className="block aspect-w-4 aspect-h-3">
               <motion.img
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
@@ -61,7 +70,7 @@ const Blog = () => {
                 src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=800&h=500"
                 alt=""
               />
-            </a>
+            </Link>
             <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-sky-500 bg-sky-100 mt-9">
               {" "}
               Marketing{" "}
@@ -81,10 +90,13 @@ const Blog = () => {
               {" "}
               Martin Jones . June 12, 2021{" "}
             </span>
-          </div>
+          </motion.div>
 
-          <div>
-            <a href="#" title="" className="block aspect-w-4 aspect-h-3">
+          <motion.div initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.9 }}
+              viewport={{ once: true }}>
+            <Link href="#" title="" className="block aspect-w-4 aspect-h-3">
               <motion.img
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
@@ -92,7 +104,7 @@ const Blog = () => {
                 src="https://images.unsplash.com/photo-1522071901873-411886a10004?auto=format&fit=crop&q=80&w=800&h=500"
                 alt=""
               />
-            </a>
+            </Link>
             <span className="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-sky-500 bg-sky-100 mt-9">
               {" "}
               Marketing{" "}
@@ -112,7 +124,7 @@ const Blog = () => {
               {" "}
               Martin Jones . June 12, 2021{" "}
             </span>
-          </div>
+          </motion.div>
         </div>
       </div>
     </MotionSection>

@@ -23,8 +23,8 @@ const MotionSection = ({
 }: MotionSectionProps) => {
     const ref = useRef(null);
   const isInView = useInView(ref, {
-    margin: "-50% 0px -50% 0px",
-  });
+    margin: "-50% 0px -50% 0px", once: true
+  },);
   return (
     <motion.section
       ref={ref}
