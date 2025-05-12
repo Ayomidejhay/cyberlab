@@ -50,13 +50,7 @@ const Hero = () => {
             commitment to excellence, combined with innovative thinking, sets us
             apart as leaders in the industry.
           </motion.p>
-          <Image
-            src="/1.png"
-            width={30}
-            height={30}
-            alt="logo"
-            className="mt-4"
-          />
+          
         </motion.div>
 
         <div className="absolute">
